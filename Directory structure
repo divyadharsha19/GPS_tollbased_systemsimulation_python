@@ -1,0 +1,17 @@
+GPS_Toll_Simulation/
+│
+├── data/
+│   ├── toll_zones.csv           # CSV file containing toll zone coordinates and details
+│   └── vehicle_paths.csv        # CSV file containing predefined vehicle paths
+│
+├── scripts/
+│   ├── simulate.py              # Main script to run the simulation
+│   ├── visualization.py         # Script for generating maps and plots
+│   └── toll_calculations.py     # Script for toll calculations and distance measurement
+│
+├── outputs/
+│   ├── THE_BEST_TECHIES_MAP.html # HTML file with the interactive map of Coimbatore
+│   └── car_movements_graph.png   # PNG file with the graph of vehicle movements
+│
+├── README.md                    # Project README file
+└── LICENSE                      # License file
