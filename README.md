@@ -77,7 +77,16 @@ It's recommended to use a virtual environment (e.g., virtualenv or conda) to man
 virtualenv venv
 source venv/bin/activate  # On Windows use `source venv\Scripts\activate`
 ```
+## Prerequisites
 
+Before running the project, ensure you have the following:
+
+- **Python Installed**: Ensure Python (preferably Python 3) is installed on your system.
+
+- **Required Python Packages**: Install the necessary Python packages if you haven't already. You can install them using `pip`, Python's package installer.
+
+  ```sh
+  pip install simpy geopandas pandas geopy matplotlib folium
 ## Usage
 
 Follow these steps to use the GPS toll-based system simulation:
