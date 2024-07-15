@@ -16,6 +16,7 @@ The Python code simulates a scenario involving vehicles moving between random st
 6. [Contributors](#contributors)
 7. [Where to Get Help](#where-to-get-help)
 8. [License](#license)
+9. [Planned Enhancements](#planned-enhancements)
 
 ## Features
 
@@ -59,6 +60,7 @@ To run the GPS toll-based system simulation project, follow these steps:
 git clone https://github.com//your_repository.git
 cd your_repository
 ```
+## Example
 ```
 git clone https://github.com/divyadharsha19/GPS_simulation_python.git
 cd GPS_simulation_python
@@ -132,3 +134,16 @@ For any inquiries or assistance, feel free to reach out via email: divyadharshin
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Planned Enhancements
+- Enhanced Vehicle Dynamics:
+Introduce varying vehicle speeds based on traffic density and road conditions.
+Implement realistic acceleration and deceleration models.
+- Dynamic Toll Pricing:
+Incorporate algorithms for real-time toll adjustments based on traffic volume and congestion.
+- Multi-modal Simulation:
+Extend the simulation to include public transport and bicycle movements interacting with vehicles.
+- User Interaction:
+Develop a user interface for configuring simulation parameters and visualizing real-time data.
+- Scenario Expansion:
+Include additional cities or regions to simulate diverse geographical scenarios.
