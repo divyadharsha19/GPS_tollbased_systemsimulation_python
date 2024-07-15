@@ -56,8 +56,12 @@ To run the GPS toll-based system simulation project, follow these steps:
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/your_repository.git
+git clone https://github.com//your_repository.git
 cd your_repository
+```
+```
+git clone https://github.com/divyadharsha19/GPS_simulation_python.git
+cd GPS_simulation_python
 ```
 
 ### Install dependencies:
@@ -117,7 +121,7 @@ Follow these steps to use the GPS toll-based system simulation:
 
 ## Contributors
 
-- Divyadharshini S
+- Divyadharshini S 
 - Bhuvaneshwari S
 - Janikaa S
 
