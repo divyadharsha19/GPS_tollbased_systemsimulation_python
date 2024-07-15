@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_23f588d561ed5c681c65e420086721ab {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_23f588d561ed5c681c65e420086721ab" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_23f588d561ed5c681c65e420086721ab = L.map(
+                "map_23f588d561ed5c681c65e420086721ab",
+                {
+                    center: [11.0168, 76.9558],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a52a26d5d08c01980d50217b784351b1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a52a26d5d08c01980d50217b784351b1.addTo(map_23f588d561ed5c681c65e420086721ab);
+        
+    
+            var marker_f70f0f9aa0f27360259547f37f642da7 = L.marker(
+                [11.016799999999995, 76.88289999999999],
+                {}
+            ).addTo(map_23f588d561ed5c681c65e420086721ab);
+        
+    
+            var icon_9e4dad6fe1095a610a10f0299a261c7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f70f0f9aa0f27360259547f37f642da7.setIcon(icon_9e4dad6fe1095a610a10f0299a261c7d);
+        
+    
+        var popup_faf699c021b06b82f08985e48f3baf3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_758d9d22822eee1ef3ce22d5bb07cb98 = $(`<div id="html_758d9d22822eee1ef3ce22d5bb07cb98" style="width: 100.0%; height: 100.0%;">Toll Area 0</div>`)[0];
+                popup_faf699c021b06b82f08985e48f3baf3a.setContent(html_758d9d22822eee1ef3ce22d5bb07cb98);
+            
+        
+
+        marker_f70f0f9aa0f27360259547f37f642da7.bindPopup(popup_faf699c021b06b82f08985e48f3baf3a)
+        ;
+
+        
+    
+    
+            var marker_dea18c932da408580a13eb6392455f95 = L.marker(
+                [11.047099999999999, 76.9509],
+                {}
+            ).addTo(map_23f588d561ed5c681c65e420086721ab);
+        
+    
+            var icon_56ba237f7fd83d3b4f563ab850d79fd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dea18c932da408580a13eb6392455f95.setIcon(icon_56ba237f7fd83d3b4f563ab850d79fd8);
+        
+    
+        var popup_c21033ab48f7b32999daf025568d3727 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_890c3e8f30a54f0a27c7a0cc439d4c6e = $(`<div id="html_890c3e8f30a54f0a27c7a0cc439d4c6e" style="width: 100.0%; height: 100.0%;">Toll Area 1</div>`)[0];
+                popup_c21033ab48f7b32999daf025568d3727.setContent(html_890c3e8f30a54f0a27c7a0cc439d4c6e);
+            
+        
+
+        marker_dea18c932da408580a13eb6392455f95.bindPopup(popup_c21033ab48f7b32999daf025568d3727)
+        ;
+
+        
+    
+</script>
+</html>
